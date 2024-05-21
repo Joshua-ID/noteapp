@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #141E41;
+    overflow: hidden;
+}
+
+.app {
+    width: 80%;
+    height: 85%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 28px;
+    color: #141E41;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 40%;
+    border-radius: 10px;
+    border: 1px solid #d7d7d7;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.save {
+    background-color: #354B9C;
+    color: white;
+    margin-right: 10px;
+}
+
+.save:hover {
+    background-color: #1A306C;
+}
+
+.delete {
+    background-color: #E04A4A;
+    color: white;
+}
+
+.delete:hover {
+    background-color: #C43333;
+}
+
+.notes {
+    margin-top: 30px;
+}
+
+.note {
+    background-color: #eeeeee;
+    padding: 15px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.note p {
+    font-size: 18px;
+    color: #141E41;
+}
+
+.note-date {
+    font-size: 14px;
+    color: #999999;
+}
